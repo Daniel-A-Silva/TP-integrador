@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../bin"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../public"
+		},
+		{
+			"path": "../routes"
+		},
+		{
+			"path": "."
+		}
+	]
+}

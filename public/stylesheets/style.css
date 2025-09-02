@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content {
+    flex: 1; /* ocupa el espacio disponible */
+  }
+
+  footer {
+    background: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+/* Estilos para la imagen con zoom */
+.img-cuadrada {
+  width: 200px;   /* cambiá este número según quieras */
+  height: 200px;  /* para forzar formato cuadrado */
+  object-fit: cover; /* recorta la imagen sin deformarla */
+  margin: auto;   /* centra la imagen */
+  display: block;
+}
+
